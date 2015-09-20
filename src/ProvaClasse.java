@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class HelloWorld {
+public class ProvaClasse {
 	public static void main(String[] args) {
 		Cotxe myCar = new Cotxe();
 		Scanner entrada = new Scanner(System.in);
