@@ -7,6 +7,7 @@
 
 
 public class Cotxe {
+	String color;
 	String marca;
 	String model;
 	int cilindrada;
@@ -18,6 +19,12 @@ public class Cotxe {
 	}
 	public void setMarca(String marca) {
 		this.marca = marca;
+	}
+	public String getColor() {
+		return color;
+	}
+	public void setColor(String color) {
+		this.color = color;
 	}
 	public String getModel() {
 		return model;
